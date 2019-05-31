@@ -1,0 +1,27 @@
+{
+  "name": "typetree",
+  "version": "0.1.0",
+  "description": "Object validation using a type tree definition.",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "object",
+    "validation",
+    "compare",
+    "definition",
+    "type",
+    "tree"
+  ],
+  "author": "sysaxis",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}

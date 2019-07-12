@@ -1,15 +1,7 @@
 {
   "name": "typetree",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "description": "Object validation using a type tree definition.",
-  "main": "lib/index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  },
-  "scripts": {
-    "test": "node test"
-  },
   "keywords": [
     "object",
     "validation",
@@ -18,8 +10,24 @@
     "type",
     "tree"
   ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sysaxis/js-typetree.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sysaxis/js-typetree/issues"
+  },
   "author": "sysaxis",
   "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.1.4"

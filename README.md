@@ -43,7 +43,7 @@ var validObject = {
         }
     ],
     // either true, false or can be ommited
-    active: [Boolean, undefined]
+    active: [Boolean, undefined],
     // strict value
     type: 'SME'
 }

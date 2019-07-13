@@ -84,6 +84,26 @@ test('Array<T>', function() {
     errors = validateObject(validObject, [1, 2, 'a']);
     assert.lengthOf(errors, 1);
     assert.equal(errors[0], 'expected Number at [2]');
+
+
+    validObject = [Object];
+
+    errors = validateObject(validObject, [{}]);
+    assert.isUndefined(errors);
+
+    errors = validateObject(validObject, 1);
+    assert.lengthOf(errors, 1);
+    assert.equal(errors[0], 'expected Array<Object {}>');
+
+
+    validObject = Array;
+
+    errors = validateObject(validObject, []);
+    assert.isUndefined(errors);
+
+    errors = validateObject(validObject, 1);
+    assert.lengthOf(errors, 1);
+    assert.equal(errors[0], 'expected Array<(any)>');
 });
 
 test('Array with optionals', function() {

@@ -1,6 +1,6 @@
 {
   "name": "typetree",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Object validation using a type tree definition.",
   "keywords": [
     "object",
